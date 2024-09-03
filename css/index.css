@@ -8,9 +8,20 @@ body{
 }
 img.card-category{
     border-radius: 20px !important;
+    width: 50vh;
 }
 .card{
     border: none !important;
+}
+
+
+.card-category img{
+    width: 1vw !important;
+}
+#categories-slogan{
+    font-size: 4rem;
+    font-weight: bolder;
+    padding-bottom: 5rem;
 }
 
 #title{
@@ -27,4 +38,5 @@ img.card-category{
 .card-title{
     padding-top: 1rem;
     align-self: center;
+    text-align: center;
 }
