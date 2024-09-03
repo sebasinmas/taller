@@ -1,0 +1,11 @@
+#title{
+    font-family: 'Roboto';
+    font-size:auto;
+    font-weight: bold;
+}
+#landing-image{
+    background-image: url("../imgs/background.png");
+    height: 100vh;
+    width: 100vw;
+
+}
