@@ -2,6 +2,38 @@ body{
     font-family: 'Roboto';
     overflow-x: hidden;
 }
+
+#brand-title{
+    font-size: 3rem;
+}
+
+nav{
+    margin: 40px 40px 0px 40px;
+}
+
+#product-text{
+    align-items: center;
+    text-align: center;
+    font-size: 3rem;
+    font-weight: bold;
+    padding-top: 10vh;
+    padding-bottom: 10vh;
+}
+#subtext{
+    padding-top: 10vh;
+    padding-bottom: 20vh;
+    font-size: 2rem;
+    align-items: center;
+    text-align: center;
+    font-weight: lighter;
+}
+.nav-text{
+    color: black !important;
+    font-family: 'Roboto';
+    font-size: 1.5rem !important;
+    font-weight: bold !important;
+    padding-inline: 4rem !important;
+}
 .container-fluid{
     padding-left: 7vw !important;
     padding-right:7vw !important;
@@ -12,6 +44,10 @@ img.card-category{
 }
 .card{
     border: none !important;
+}
+.navbar-nav img{
+    max-width: 3rem !important;
+    margin-left: 1vw;
 }
 
 

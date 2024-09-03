@@ -17,11 +17,23 @@
 </head>
 
 <body>
-    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+    <nav class="navbar navbar-expand-lg navbar-light justify-content-between">
         <a class="navbar-brand" href="#">
             <img src="./imgs/icono/icono.png"  class="d-inline-block align-top" alt="">
-            <h1>Furniro</h1>
+            <span id="brand-title">Furniro<span>
         </a>
+        <div class="navbar-nav">
+            <a class="nav-item nav-link nav-text" href="#">Home</a>
+            <a class="nav-item nav-link nav-text" href="#">Shop</a>
+            <a class="nav-item nav-link nav-text" href="#">About</a>
+            <a class="nav-item nav-link nav-text" href="#">Contact</a>
+          </div>
+          <div class="navbar-nav images">
+            <img src="./imgs/icono/lupa.png"  class="d-inline-block align-top" alt="">
+            <img src="./imgs/icono/corazon.png"  class="d-inline-block align-top" alt="">
+            <img src="./imgs/icono/carrito.png" class="d-inline-block align-top" alt="">
+            
+          </div>
     </nav>
     <header id="landing-image">
 
@@ -48,7 +60,7 @@
         </div>
     </section>
     <section id="product-showcase">
-        <h1>Our Products</h1>
+        <h1 id="product-text" class="text-center">Our Products</h1>
         <div class="container-fluid">
             <div class="row row-cols-4 g-3">
                 <div class="col">
